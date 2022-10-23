@@ -4,7 +4,7 @@ import Button from "./shared/Button";
 import RatingSelect from "./RatingSelect";
 
 import { useContext } from "react";
-import FeedbackContext from "./context/FeedbackContext";
+import FeedbackContext from "../context/FeedbackContext";
 
 const FeedbackFrom = () => {
   const { addFeedback } = useContext(FeedbackContext);

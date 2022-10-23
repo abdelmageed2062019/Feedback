@@ -8,7 +8,7 @@ import FeedbackFrom from "./components/FeedbackFrom";
 import AboutPage from "./pages/AboutPage";
 import AboutIconLink from "./components/AboutIconLink";
 
-import { FeedbackProvider } from "./components/context/FeedbackContext";
+import { FeedbackProvider } from "./context/FeedbackContext";
 
 function App(props) {
   const [feedback, setFeedback] = useState(FeedbackData);
